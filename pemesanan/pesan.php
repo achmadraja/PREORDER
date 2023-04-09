@@ -19,7 +19,7 @@
             <form method="POST"
             action="http://localhost:8080/preorder/pemesanan/proses_pesan.php">
             <input name="id_barang" type="hidden" value="<?= $id_barang ?>">    
-            <tr>
+                <tr>
                     <td>Nama :</td>
                     <td><input name="nama" type="text"></td>
                 </tr>
